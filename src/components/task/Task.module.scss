@@ -1,0 +1,12 @@
+.task {
+    background-color: var(--white-color);
+    padding: 8px 7px 9px;
+    min-height: 35px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    cursor: pointer;
+}

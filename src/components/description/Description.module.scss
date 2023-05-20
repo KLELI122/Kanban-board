@@ -1,0 +1,46 @@
+.wrapper {
+    width: 1181px;
+    height: 548px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 22px 23px 0 28px;
+    position: relative;
+
+    textarea {
+        display: block;
+        outline: 0;
+        border: 0;
+        resize: none;
+        font-family: inherit;
+        width: 621px;
+        cursor: pointer;
+    }
+
+    .title {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 35px;
+        height: 28px;
+    }
+
+    .desc {
+        font-size: 18px;
+        line-height: 21px;
+        height: -webkit-fill-available;
+        max-height: 400px;
+    }
+
+    .close {
+        position: absolute;
+        cursor: pointer;
+        background-image: url('../../assets/close.svg');
+        background-repeat: no-repeat;
+        width: 26px;
+        height: 26px;
+        border: 0;
+        outline: 0;
+        background-color: transparent;
+        top: 17px;
+        left: 95%;
+    }
+}

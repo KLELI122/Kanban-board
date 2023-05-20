@@ -1,0 +1,38 @@
+.button {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 21px;
+    width: 102px;
+    height: 29px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0;
+
+    &.add {
+        gap: 4px;
+
+        &.active {
+            color: var(--dark_gray-color);
+
+            &:hover {
+                background-color: var(--white-color);
+            }
+        }
+
+        &.disabled {
+            cursor: default;
+            color: var(--gray-color);
+        }
+    }
+
+    &.submit {
+        background-color: var(--light_blue-color);
+        color: var(--white-color);
+
+    }
+}

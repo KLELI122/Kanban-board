@@ -1,0 +1,27 @@
+@import './reset.css';
+
+@font-face {
+  font-family: 'Roboto Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+:root {
+  --dark_blue-color: #0067A3;
+  --light_blue-color: #0079BF;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+  --dark_gray-color: #5E6C84;
+  --light_gray-color: #EBECF0;
+  --gray-color: #aeaeae;
+  --scroll-color: #CBCBCB;
+}
+
+body {
+  font-family: 'Roboto Regular', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ 
